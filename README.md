@@ -1,4 +1,4 @@
-# Statistical Rethinking
+# Statistical Rethinking: Rethought
 
 > A repository of worked problems and examples from _Statistical Rethinking,
 > 2nd Edition_ (McElreath, 2020), mainly in Julia and R.
@@ -10,8 +10,8 @@ This repository was created out of a desire to better understand Bayesian
 statistics by learning from Richard McElreath's
 [_Statistical Rethinking_][sr-book] textbook. Here, you will find (in progress!)
 worked problems and example from the text. _Statistical Rethinking's_ language
-of choice is R, but this repo also attempts to replicate some of the book using
-Julia.
+of choice is [R][r-site], but this repo also attempts to replicate some of the
+book using [Julia][julia-site].
 
 
 ## Structure
@@ -60,3 +60,5 @@ _Note: this repository uses the 2nd edition of the book, published in March,
 [renv-site]: rstudio.github.io/renv/
 [rstan-wiki]: https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started
 [rethinking-github]: https://github.com/rmcelreath/rethinking
+[r-site]: www.r-project.org
+[julia-site]: julialang.org
