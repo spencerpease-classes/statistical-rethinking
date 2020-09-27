@@ -57,8 +57,8 @@ _Note: this repository uses the 2nd edition of the book, published in March,
 
 
 [sr-book]: https://xcelab.net/rm/statistical-rethinking/
-[renv-site]: rstudio.github.io/renv/
+[r-site]: https://www.r-project.org
+[julia-site]: https://julialang.org
+[renv-site]: https://rstudio.github.io/renv/
 [rstan-wiki]: https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started
 [rethinking-github]: https://github.com/rmcelreath/rethinking
-[r-site]: www.r-project.org
-[julia-site]: julialang.org
