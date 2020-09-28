@@ -19,6 +19,11 @@ book using [Julia][julia-site].
 The code in this repo is organized by book chapter. Within each chapter folder
 is code for both the textbook examples and problems, in each language.
 
+### Chapters
+
+ 1) The Golem of Prague (_no code_)
+ 2) [Small Worlds and Large Worlds](chapters/ch02)
+
 
 ## Environments
 
