@@ -28,17 +28,23 @@ be recreated using the following methods:
 ### R
 
 The R environment is managed with [**renv**][renv-site]. To recreate the
-environment locally, simply open `statistical-rethinking.Rproj` in Rstudio, and
-the rest should be taken care of. One pacakge, **Rstan**, may require additional
-setup described on the [Rstan Getting Started Wiki][rstan-wiki]. Another package
-of note is the companion package for this textbook:
+environment locally, simply open `statistical-rethinking.Rproj` in Rstudio then
+run:
+
+```r
+renv::restore()
+```
+
+and the rest should be taken care of. One pacakge, **Rstan**, may require
+additional setup described on the [Rstan Getting Started Wiki][rstan-wiki].
+Another package of note is the companion package for this textbook:
 [**rethinking**][rethinking-github].
 
 ### Juila
 
 The Julia environment is managed by the native package manager and included
 `Project.toml` file. The environment can be activated by setting Julia's
-working directory to this repo, then running either:
+working directory to this repo then running either:
 
 ```julia
 julia> using Pkg; Pkg.activate(pwd()) # From the Julia REPL
